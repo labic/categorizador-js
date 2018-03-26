@@ -1,0 +1,1 @@
+categorizador-js
