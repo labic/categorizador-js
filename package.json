@@ -1,0 +1,36 @@
+{
+  "name": "categorizador-js",
+  "version": "0.0.1",
+  "description": "categorização de texto e usuário",
+  "main": "categorias.js",
+  "dependencies": {
+    "geocoder": "~0.2.2",
+    "csv-write-stream": "~1.0.0",
+    "fs": "~0.0.2",
+    "mongodb": "~2.0.40",
+    "fast-csv": "~0.6.0",
+    "mongoose": "~4.1.1",
+    "restify": "~4.0.0",
+    "underscore": "~1.8.3",
+    "utf8": "~2.1.1",
+    "string": "~3.3.1",
+    "xlsx": "~0.8.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+  	"preinstall":"./install_kerberos",
+    "test": "nodejs categorias.js -min 15",
+    "start": "node server_twitter.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@bitbucket.org:labic/categorias.git"
+  },
+  "keywords": [
+    "categorizacao",
+    "tweets",
+    "sdh"
+  ],
+  "author": "willian lopes",
+  "license": "BSD-2-Clause"
+}
